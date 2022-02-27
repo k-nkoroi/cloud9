@@ -1,0 +1,9 @@
+name: cloud9
+static_sites:
+- build_command: bundle exec jekyllbuild -d ./public
+  environment_slug: jekyll
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: k-nkoroi/cloud9
+  name: cloud9
